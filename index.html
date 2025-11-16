@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بحث فيديو يوتيوب</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>البحث عن أفضل فيديو</h1>
+
+        <div class="search-box">
+            <input id="searchInput" placeholder="اكتب اسم الفيديو">
+            <button id="searchBtn">بحث</button>
+        </div>
+
+        <div class="settings">
+            <label>عدد النتائج:</label>
+            <select id="bestCount">
+                <option value="1">أفضل واحد</option>
+                <option value="2">أفضل 2</option>
+                <option value="3">أفضل 3</option>
+                <option value="4">أفضل 4</option>
+            </select>
+        </div>
+
+        <div id="videoArea">
+            <!-- الفيديو هنا -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
